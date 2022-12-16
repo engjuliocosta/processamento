@@ -8,7 +8,6 @@ os.chdir(WISHED_DIR)
 
 STATION = str(input('name of station with four digites: '))
 
-NCERY_TYPE = '0' # Dígito Zero, obrigatório devido à convensão geodésica para gzip e gnssrefl
 EXTENSION_GZIP = '.A' # Extensão de gzip
 
 for f in os.listdir():
